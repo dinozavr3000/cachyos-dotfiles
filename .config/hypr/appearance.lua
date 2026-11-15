@@ -1,0 +1,54 @@
+hl.config({
+    general = {
+        gaps_in = 2,
+        gaps_out = 3,
+        border_size = 1,
+	layout = "scrolling",
+    },
+
+    scrolling = {
+	column_width = 0.5,
+	direction = "right",
+	focus_fit_method = 1,
+    },
+
+    binds = {
+	scroll_event_delay = 0,
+    },
+  
+    decoration = {
+        rounding = 14,
+        rounding_power = 2,
+
+        active_opacity = 1.0,
+        inactive_opacity = 1.0,
+
+        shadow = {
+            enabled = false,
+        },
+
+        blur = {
+            enabled = true,
+            size = 3,
+            passes = 4,
+            vibrancy = 0.15,
+            vibrancy_darkness = 1.0,
+            -- noise = 0,
+            -- contrast = 0.9,
+            brightness = 0.9,
+            popups = true,
+            popups_ignorealpha = 0.3,
+            new_optimizations = true,
+        },
+    },
+
+    animations = {
+        enabled = true,
+    },
+
+    misc = {
+        disable_hyprland_logo = false,
+        disable_splash_rendering = true,
+        force_default_wallpaper = 1,
+    },
+})
