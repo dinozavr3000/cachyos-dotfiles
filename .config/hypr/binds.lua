@@ -4,7 +4,7 @@ local v = require("vars")
 hl.bind("SUPER + RETURN",           hl.dsp.exec_cmd(v.terminal))                -- Kitty
 hl.bind("SUPER + SHIFT + RETURN",   hl.dsp.exec_cmd(v.terminal1))               -- Thunar
 hl.bind("SUPER + CONTROL + RETURN", hl.dsp.exec_cmd(v.fileManager))             -- Thunar
-hl.bind("SUPER + B",                hl.dsp.exec_cmd("firefox"))                 -- Firefox
+hl.bind("SUPER + Z",                hl.dsp.exec_cmd("zen-browser"))             -- Zen
 hl.bind("SUPER + P",                hl.dsp.exec_cmd(v.terminal1 .. " -e btop")) -- btop
 
 -- 2. Хоткеи оболочки
@@ -95,7 +95,7 @@ end)
 -- 6. Hypr ecosystem
 hl.bind("SUPER + CONTROL + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")) -- Выйти из Hyrpland
 hl.bind("SUPER + CONTROL + W", hl.dsp.exec_cmd("$HOME/.config/hypr/scripts/toggle.sh")) -- Переключить Hyprpaper
---hl.bind("SUPER + L",           hl.dsp.exec_cmd("hyprlock")) -- Hyprlock
+hl.bind("SUPER + B",           hl.dsp.exec_cmd("hyprlock")) -- Hyprlock
 
 -- 7. Перемещение фокуса
 hl.bind("SUPER + left",  hl.dsp.focus({ direction = "l" }), { repeating = true }) -- Влево
