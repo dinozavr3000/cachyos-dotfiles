@@ -1,0 +1,171 @@
+config_version = 20
+
+[audio]
+colorize_icons = true
+enable_overdrive = true
+
+[bar.default]
+capsule = true
+end = [ "media", "tray", "notifications", "volume", "session" ]
+margin_edge = 4
+
+[control_center]
+hidden_tabs = [ "monitor", "power", "bluetooth" ]
+sidebar = "full"
+width = 900
+
+[desktop_widgets]
+schema_version = 2
+widget_order = [ "desktop-widget-0000000000000001", "desktop-widget-0000000000000002" ]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000001]
+    box_height = 256.0
+    box_width = 592.0
+    cx = 1280.0
+    cy = 224.0
+    output = "DP-2"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
+        background = false
+        clock_style = "digital"
+        color = "on_surface"
+        shadow = false
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 208.0
+    box_width = 1440.0
+    cx = 1296.0
+    cy = 1320.0
+    output = "DP-2"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        background = false
+        bands = 64
+        centered = false
+        color_1 = "on_surface"
+        color_2 = "on_surface"
+        mirrored = true
+        reversed = false
+        show_wave = false
+        show_when_idle = true
+
+[dock]
+colorize_icons = true
+
+[location]
+address = "Moscow"
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@DP-2" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-2"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1258.0
+    output = "DP-2"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-2".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[notification]
+colorize_icons = true
+
+[plugins]
+enabled = [ "0rgl/ask-claude" ]
+
+[shell]
+font_family = "DejaVu Sans Condensed"
+password_style = "random"
+polkit_colorize_icons = true
+screen_time_colorize_icons = true
+
+    [shell.launcher]
+    categories = false
+    colorize_icons = true
+    compact = true
+    layout = "simple"
+    show_icons = false
+
+    [shell.panel]
+    control_center_placement = "floating"
+
+    [shell.screenshot]
+    directory = "/home/alex/Pictures/Screenshots"
+
+    [shell.shadow]
+    alpha = 0.0
+
+    [shell.window_switcher]
+    colorize_icons = true
+
+[theme]
+builtin = "Tokyo-Night"
+community_palette = "Catppuccin Mocha Maroon"
+source = "community"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "hyprland", "kcolorscheme", "kitty", "qt" ]
+
+[wallpaper]
+directory = "/home/alex/Pictures/Wallpapers"
+
+    [wallpaper.default]
+    path = "/home/alex/Pictures/Wallpapers/mount-fuji-hd-reflection_bWhoZmyUmZqaraWkpJRoZWVlrWZrbW0-966412543.jpg"
+
+    [wallpaper.last]
+    path = "/home/alex/Pictures/Wallpapers/mount-fuji-hd-reflection_bWhoZmyUmZqaraWkpJRoZWVlrWZrbW0-966412543.jpg"
+
+    [wallpaper.monitors.DP-2]
+    path = "/home/alex/Pictures/Wallpapers/mount-fuji-hd-reflection_bWhoZmyUmZqaraWkpJRoZWVlrWZrbW0-966412543.jpg"
+
+[widget.active_window]
+colorize_icons = true
+
+[widget.taskbar]
+colorize_icons = true
+
+[widget.tray]
+colorize_icons = true
+
+[widget.workspaces]
+colorize_icons = true

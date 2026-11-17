@@ -1,4 +1,5 @@
 CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}"
+STATE_DIR="${XDG_STATE_HOME:-$HOME/.local/state}"
 
 cp -r $CONFIG_DIR/hypr .config/
 #cp -r $CONFIG_DIR/niri .config/
@@ -21,5 +22,6 @@ cp $HOME/.zshrc ./
 cp $HOME/.p10k.zsh ./
 #cp $HOME/.clang-format ./
 #cp -r $CONFIG_DIR/clangd .config/
+cp $STATE_DIR/noctalia/settings.toml .local/state/noctalia/
 
 #cp -r $HOME/Изображения/Wallpapers ./
