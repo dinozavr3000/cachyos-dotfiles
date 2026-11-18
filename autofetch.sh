@@ -24,4 +24,4 @@ cp $HOME/.p10k.zsh ./
 #cp -r $CONFIG_DIR/clangd .config/
 cp $STATE_DIR/noctalia/settings.toml .local/state/noctalia/
 
-#cp -r $HOME/Изображения/Wallpapers ./
+cp -r $HOME/Pictures/Wallpapers ./

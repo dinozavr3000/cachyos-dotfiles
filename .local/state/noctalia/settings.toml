@@ -140,6 +140,7 @@ screen_time_colorize_icons = true
 [theme]
 builtin = "Tokyo-Night"
 community_palette = "Catppuccin Mocha Maroon"
+mode = "dark"
 source = "community"
 wallpaper_scheme = "m3-content"
 
@@ -150,13 +151,13 @@ wallpaper_scheme = "m3-content"
 directory = "/home/alex/Pictures/Wallpapers"
 
     [wallpaper.default]
-    path = "/home/alex/Pictures/Wallpapers/mount-fuji-hd-reflection_bWhoZmyUmZqaraWkpJRoZWVlrWZrbW0-966412543.jpg"
+    path = "/home/alex/Pictures/Wallpapers/train.jpg"
 
     [wallpaper.last]
-    path = "/home/alex/Pictures/Wallpapers/mount-fuji-hd-reflection_bWhoZmyUmZqaraWkpJRoZWVlrWZrbW0-966412543.jpg"
+    path = "/home/alex/Pictures/Wallpapers/train.jpg"
 
     [wallpaper.monitors.DP-2]
-    path = "/home/alex/Pictures/Wallpapers/mount-fuji-hd-reflection_bWhoZmyUmZqaraWkpJRoZWVlrWZrbW0-966412543.jpg"
+    path = "/home/alex/Pictures/Wallpapers/train.jpg"
 
 [widget.active_window]
 colorize_icons = true
